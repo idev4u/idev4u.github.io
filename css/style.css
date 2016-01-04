@@ -10,7 +10,9 @@ nav {
 
 body {
 	background-color: black;
-	color: white;
+	/*color: white;*/
+	/*color: #0066FF;*/
+	color: #0099FF;
 	font-family: sans-serif;
 	margin: 0px;
 	padding: 0px;
@@ -23,15 +25,21 @@ h1{
 }
 
 a{
-	color: white;
+	/*color: white;*/
+	/*color: #0066FF;*/
+	color: #0099FF;
 	text-decoration: none;
 	font-size: 30px;	
 	padding-right: 10px;
-	-webkit-transition-delay: 2s;
+
 }
 
 p{
 	text-align: center;
+}
+
+#logo{
+	align: left;
 }
 
 #navplace{
@@ -43,7 +51,7 @@ p{
 	padding-right: 20px;
 }
 #home{
-	float: inherit;
+	/*float: inherit;*/
 	background-color: black;
 	display: block;
 	width: auto;
@@ -63,7 +71,9 @@ p{
 
 }
 #paboutme, #h1aboutme{
-	color: black;
+	/*color: black;*/
+	/*color: #0066FF;*/
+	color: #0099FF;
 }
 #footer{
 	padding: 50px;
