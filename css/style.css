@@ -5,7 +5,9 @@ nav {
 	text-align: right;
 	padding: 10px;
 	position: fixed;
-
+	border-color: #0099FF;
+	border-bottom: solid;
+	border-width: thin;
 }
 
 body {
