@@ -2,12 +2,53 @@
 <html>
 <head>
 	<link rel="icon" href="http://idev4u.github.io/images/fav/favicon.github.png" type="image/png" />
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<title>..:: idev4U on GitHub ::..</title>
 </head>
 <body>
-	<div>
+	<script>
+		function scrollTo(to, duration) {
+    if (document.body.scrollTop == to) return;
+    var diff = to - document.body.scrollTop;
+    var scrollStep = Math.PI / (duration / 50);
+    var count = 0, currPos;
+    start = element.scrollTop;
+    scrollInterval = setInterval(function(){
+        if (document.body.scrollTop != to) {
+            count = count + 1;
+            currPos = start + diff * (1 - 1 * Math.cos(count * scrollStep));
+            document.body.scrollTop = currPos;
+        }
+        else { clearInterval(scrollInterval); }
+    },10);
+}
+
+function test(elID)
+{
+    var dest = document.getElementById(elID);
+    scrollTo(dest.offsetTop, 500);
+}
+</script>
+	<nav>
+		<div id="menunav">
+			<!--p class="menu"><a href="#S1" onclick="test('S1'); return false;">S1</a></p-->
+			<a href="#home" onclick="test('home'); return false;">Home</a>
+			<a href="#aboutme" onclick="test('aboutme'); return false;">About Me</a>
+			<a href="#footer" onclick="test('footer'); return false;">Contact</a>
+		</div>
+	</nav>
+	<section id="home">
 		<h1>Hello World </h1>
 		<p>I'm Norman more content coming soon ...</p>
-	</div>
+	</section>
+	<section id="aboutme">
+		<h1 id="h1aboutme">About me </h1>
+		<p id="paboutme">I tell you a little bit about me in the future ...</p>
+	</section> 
 </body>
+<footer>
+	<div id="footer">
+		<a href="mailto:us.idev.student@googlemail.com?subject=Intrest?">Send Email</a>
+	</div>
+</footer>
 </html>
