@@ -29,19 +29,17 @@ h1{
 a{
 	/*color: white;*/
 	/*color: #0066FF;*/
+	line-height: 45px;
 	color: #0099FF;
 	text-decoration: none;
-	font-size: 25px;	
+	font-size: 18px;	
+	vertical-align: text-bottom;
 	padding-right: 10px;
 
 }
 
 p{
 	text-align: center;
-}
-
-#logo{
-	align: left;
 }
 
 #navplace{
@@ -76,6 +74,12 @@ p{
 	/*color: black;*/
 	/*color: #0066FF;*/
 	color: #0099FF;
+}
+
+#logo{
+	float: left;
+	height: 32px;
+	width: 32px;
 }
 #footer{
 	padding: 50px;
