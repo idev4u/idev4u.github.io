@@ -4,6 +4,8 @@
 }*/
 
 @media only screen and (max-width: 320px) {
+/*@media only screen and (max-width: 550px) {*/
+
     .menunavitems{
 		display: none;
 	}	
@@ -17,9 +19,11 @@
 		vertical-align: text-bottom;
 		padding: 10px;	
 	}
+
 }
 
 @media only screen and (min-width: 321px) {
+/*@media only screen and (min-width: 551px) {	*/
   
 	.menunavitems{
 		/*color: white;*/
@@ -35,6 +39,7 @@
 	.menunavicon{
 		display: none;
 	}
+
 }
 nav {
 	background-color: black;
@@ -88,6 +93,13 @@ i{
     padding: 10px;
     padding-top: 60px;
 }	
+
+#logo{
+	float: left;
+	height: 45px;
+	width: 45px;
+}
+
 #aboutme{
 	background-color: white;
 	display: block;
@@ -97,16 +109,13 @@ i{
     padding-top: 60px;	
 
 }
+
 #paboutme, #h1aboutme{
 	/*color: black;*/
 	/*color: #0066FF;*/
 	color: #0099FF;
 }	
-#logo{
-	float: left;
-	height: 32px;
-	width: 32px;
-}
+
 .footerlist{
 	list-style-type: none;
 }
