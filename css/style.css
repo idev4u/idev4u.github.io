@@ -83,10 +83,24 @@ a:hover a:focus {
 }	
 p{
 	text-align: center;
+	padding: 10px;
+	margin: 10px;
 }	
 i{
 	padding: 10px;
 }	
+#namebanner{
+	font-size: 60px;
+	font-family: sans-serif;
+	font-variant: normal;
+	font-style: inherit;
+}
+#namebannericon{
+	float: inherit;
+	height: 80px;
+	width: 80px;
+}
+
 #navplace{
 	height: 60px;
 }	
