@@ -19,6 +19,11 @@
 		vertical-align: text-bottom;
 		padding: 10px;	
 	}
+	a:focus {
+    background-color: #0099FF;
+    color: black;
+    border-radius: 5px;
+}	
 
 }
 
@@ -39,6 +44,11 @@
 	.menunavicon{
 		display: none;
 	}
+	a:hover {
+    background-color: #0099FF;
+    color: black;
+    border-radius: 5px;
+}	
 
 }
 nav {
