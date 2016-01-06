@@ -3,6 +3,39 @@
    user-zoom:fixed;
 }*/
 
+@media only screen and (max-width: 320px) {
+    .menunavitems{
+		display: none;
+	}	
+
+	.menunavicon{
+		line-height: 45px;
+		color: #0099FF;
+		text-decoration: none;
+		font-size: 18px;	
+		text-align: center;
+		vertical-align: text-bottom;
+		padding: 10px;	
+	}
+}
+
+@media only screen and (min-width: 321px) {
+  
+	.menunavitems{
+		/*color: white;*/
+		/*color: #0066FF;*/
+		line-height: 45px;
+		color: #0099FF;
+		text-decoration: none;
+		font-size: 18px;	
+		text-align: center;
+		vertical-align: text-bottom;
+		padding: 10px;	
+	}	
+	.menunavicon{
+		display: none;
+	}
+}
 nav {
 	background-color: black;
 	width: 100%;
@@ -13,8 +46,7 @@ nav {
 	border-color: #0099FF;
 	border-bottom: solid;
 	border-width: thin;
-}
-
+}	
 body {
 	background-color: black;
 	/*color: white;*/
@@ -24,44 +56,25 @@ body {
 	margin: 0px;
 	padding: 0px;
 	
-}
-
+}	
 h1{
 	font-size: 60px;
 	text-align: center;
-}
-
-.menunavitems{
-	/*color: white;*/
-	/*color: #0066FF;*/
-	line-height: 45px;
-	color: #0099FF;
-	text-decoration: none;
-	font-size: 18px;	
-	text-align: center;
-	vertical-align: text-bottom;
-	padding: 10px;
-
-}
-
+}	
 a:hover {
     background-color: #0099FF;
     color: black;
     border-radius: 5px;
-}
-
+}	
 p{
 	text-align: center;
-}
-
+}	
 i{
 	padding: 10px;
-}
-
+}	
 #navplace{
 	height: 60px;
-}
-
+}	
 #menunav{
 	margin: 10px;
 	padding-right: 20px;
@@ -74,24 +87,21 @@ i{
 	height: 600px;
     padding: 10px;
     padding-top: 60px;
-}
-
+}	
 #aboutme{
 	background-color: white;
 	display: block;
 	width: auto;
 	height: 600px;
     padding: 10px;
-    padding-top: 60px;
-
+    padding-top: 60px;	
 
 }
 #paboutme, #h1aboutme{
 	/*color: black;*/
 	/*color: #0066FF;*/
 	color: #0099FF;
-}
-
+}	
 #logo{
 	float: left;
 	height: 32px;
@@ -104,8 +114,7 @@ i{
 	padding: 50px;
 	font-size: 15px;
 	text-align: center;
-	height: 200px;
-
+	height: 200px;	
 }
 .footeritems{
 	/*color: white;*/
@@ -117,9 +126,9 @@ i{
 	text-align: center;
 	vertical-align: text-bottom;
 	padding: 10px;
-	padding-right: 20px;
-
+	padding-right: 20px;	
 }
 i{
 	vertical-align: middle;
 }
+
