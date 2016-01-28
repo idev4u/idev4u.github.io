@@ -33,7 +33,7 @@
 	.footerlistmobile{
 	list-style-type: none;
 	text-align: left;
-	padding: 25px;
+	padding-top: 5px;
 	}
 
 	.footeritems{
@@ -53,10 +53,12 @@
 	}	
 	.footerspace{
 	display: inline-block;
-	padding: 5px;
+	padding: 35px;
+	padding-bottom: 60px;
 	font-size: 15px;
+	vertical-align: text-bottom;
 	width: 33%;
-	height: 100px;	
+	height: 60px;	
 	}
 
 }
