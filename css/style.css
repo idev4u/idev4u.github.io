@@ -57,7 +57,7 @@
 	font-size: 15px;
 	width: 33%;
 	height: 100px;	
-}
+	}
 
 }
 
@@ -96,6 +96,7 @@
 	.footerlist{
 	list-style-type: none;
 	text-align: left;
+	padding: 100px;
 	}
 
 	.footeritems{
@@ -112,12 +113,11 @@
 	}
 	.footerspace{
 	display: inline-block;
-	padding: 50px;
+	padding: 5px;
 	font-size: 15px;
 	width: 33%;
-	height: 200px;	
+	height: 100px;	
 	}
-
 }
 /* common part*/
 nav {
@@ -212,13 +212,6 @@ i{
 #footer{
 	padding: 50px;
 	font-size: 15px;
-	height: 200px;	
-}
-.footerspace{
-	display: inline-block;
-	padding: 50px;
-	font-size: 15px;
-	width: 33%;
 	height: 200px;	
 }
 
