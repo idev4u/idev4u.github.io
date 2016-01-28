@@ -3,6 +3,7 @@
    user-zoom:fixed;
 }*/
 
+/*mobile view*/
 @media only screen and (max-width: 320px) {
 /*@media only screen and (max-width: 550px) {*/
 
@@ -50,9 +51,17 @@
 	padding: 10px;
 	padding-right: 20px;	
 	}	
+	.footerspace{
+	display: inline-block;
+	padding: 50px;
+	font-size: 15px;
+	width: 33%;
+	height: 100px;	
+}
 
 }
 
+/*desktop view*/
 @media only screen and (min-width: 321px) {
 /*@media only screen and (min-width: 551px) {	*/
   
@@ -101,8 +110,16 @@
 		padding: 10px;
 		padding-right: 20px;	
 	}
+	.footerspace{
+	display: inline-block;
+	padding: 50px;
+	font-size: 15px;
+	width: 33%;
+	height: 200px;	
+	}
 
 }
+/* common part*/
 nav {
 	background-color: black;
 	width: 100%;
